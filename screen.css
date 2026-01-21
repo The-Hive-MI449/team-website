@@ -18,3 +18,22 @@ h3, p{
     font-family: "Work Sans"
 }
 
+h1{
+  padding: 40px;
+  text-align: center;
+}
+
+.teamWrapper{
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  gap: 200px;
+}
+
+.person{
+  text-align: center;
+}
+
+.projects{
+  text-align: center;
+}
