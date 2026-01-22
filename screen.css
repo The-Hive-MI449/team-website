@@ -32,8 +32,46 @@ h1{
 
 .person{
   text-align: center;
+  max-width: 20%;
 }
 
 .projects{
   text-align: center;
+}
+
+/* Obtained code for hex avatar classes from https://css-shape.com/hexagon/ */
+
+.hex-avatar {
+  max-width: 160px;
+  max-height: 160px;
+  min-width: 100px;
+  min-height: 100px;
+  margin: 0 auto;
+  background: #DBC81A;
+  clip-path: polygon(
+    25% 6.7%,
+    75% 6.7%,
+    100% 50%,
+    75% 93.3%,
+    25% 93.3%,
+    0% 50%
+  );
+  padding: 6px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.hex-avatar img {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+  clip-path: polygon(
+    25% 6.7%,
+    75% 6.7%,
+    100% 50%,
+    75% 93.3%,
+    25% 93.3%,
+    0% 50%
+  );
 }
