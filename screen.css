@@ -19,7 +19,8 @@ h3, p{
 }
 
 h1{
-  padding: 40px;
+  padding-bottom: 20px;
+  font-size: 48px;
   text-align: center;
 }
 
@@ -27,7 +28,7 @@ h1{
   display: flex;
   flex-wrap: wrap;
   justify-content: center;
-  gap: 100px;
+  gap: 50px;
 }
 
 .person{
@@ -37,6 +38,7 @@ h1{
 
 .projects{
   text-align: center;
+  margin-bottom: 30px;
 }
 
 /* Obtained code for hex avatar classes from https://css-shape.com/hexagon/ */
@@ -74,4 +76,22 @@ h1{
     25% 93.3%,
     0% 50%
   );
+}
+
+.teamWrapper{
+  margin-left: 30px;
+  margin-right: 30px;
+}
+
+.bio{
+  margin: 20px;
+  border: 3px #DBC81A solid; 
+  padding: 10px;            
+}
+
+.logo{
+  height: 70px;
+  display: block; 
+  padding-top: 25px;
+  margin: 0 auto;
 }
