@@ -41,6 +41,38 @@ h1{
   margin-bottom: 30px;
 }
 
+.project-card{
+  border: 3px #DBC81A solid; 
+  padding: 20px;
+  margin: 20px auto;
+  max-width: 1000px;
+  border-radius: 15px;
+  text-align: center;
+}
+
+.project-card img {
+  max-width: 100%;
+  height: auto;
+  display: block;
+  margin: 10px auto;
+}
+
+.button{
+  display: inline-block;
+  padding: 10px 20px;
+  background-color: #DBC81A;
+  color: black;
+  text-decoration: none;
+  border-radius: 5px;
+  font-family: "Work Sans";
+  margin-top: 10px;
+}
+
+.json-link {
+  color: black;
+  text-decoration: underline;
+}
+
 /* Obtained code for hex avatar classes from https://css-shape.com/hexagon/ */
 
 .hex-avatar {
